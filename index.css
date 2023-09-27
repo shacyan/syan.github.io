@@ -1,0 +1,34 @@
+/* styles.css */
+#terminal {
+   font-family: monospace;
+   background-color: #000;
+   color: #fff;
+   padding: 20px;
+}
+
+#input {
+   margin-top: 5px; /* Adjust the margin-top to reduce the gap */
+}
+
+#prompt {
+   font-weight: bold;
+   color: #00FF00; /* Green color for the prompt */
+}
+
+#cmd {
+   background: transparent;
+   border: none;
+   color: white;
+   outline: none;
+}
+
+/* Add margin to the output rows */
+#output div {
+   margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+/* Preserve whitespace within pre elements */
+pre {
+   white-space: pre-wrap;
+   font-family: monospace;
+}
